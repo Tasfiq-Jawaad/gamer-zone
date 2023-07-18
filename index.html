@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1ecf19675f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -33,17 +34,19 @@
             <article class="banner-description">
                 <h2>Play like the</h2>
                 <h1>G.O.A.T.</h1>
-                <p>1-Click instant play</p>
-                <p>No Download</p>
-                <p>1000s of supported online games</p>
+                <p><i class="fa-solid fa-play"></i> 1-Click instant play</p>
+                <p><i class="fa-solid fa-download"></i> No Download</p>
+                <p><i class="fa-solid fa-gamepad"></i> 1000s of supported online games</p>
                 <div>
-                    <button type="submit">Sign in</button>
-                    <button type="submit">GO ROGUE!!</button>
+                    <button id="sign-in" type="submit">Sign in</button>
+                    <button id="go-rogue" type="submit">GO ROGUE!!</button>
                 </div>
             </article>
             <img id="banner-img-1" src="./images/Group 18(1).png" alt="">
-            <img id="banner-img-2" src="./images/Group 18(2).png" alt="">
-            <img id="banner-img-3" src="./images/Group 18(3).png" alt="">
+            <div class="banner-img-row">
+                <img id="banner-img-2" src="./images/Group 18(2).png" alt="">
+                <img id="banner-img-3" src="./images/Group 18(3).png" alt="">
+            </div>
         </section>
     </main>
 </body>
