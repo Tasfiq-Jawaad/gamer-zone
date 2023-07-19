@@ -410,3 +410,44 @@ button {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    .hidden {
+        display: none;
+    }
+
+    .nav-container {
+        box-shadow: none;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+
+    .nav-header img {
+        height: 25px;
+    }
+
+    .nav-header h2 {
+        font-size: 25px;
+    }
+
+    .nav-main {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-main a,
+    .nav-follow p {
+        font-size: 15px;
+    }
+
+    .nav-follow {
+        width: 200px;
+        height: 45px;
+    }
+
+    .nav-follow img {
+        height: 15px;
+    }
+}
