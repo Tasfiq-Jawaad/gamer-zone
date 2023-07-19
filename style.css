@@ -509,4 +509,71 @@ button {
         height: 100%;
 
     }
+
+    /* online game section */
+    .online-games {
+        padding: 120px 70px;
+    }
+
+    .online-games header h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .online-games header p {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .game-card-container {
+        flex-direction: column;
+    }
+
+    .game-card {
+        width: 100%;
+    }
+
+    .game-card p {
+        font-size: 15px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .card {
+        height: 333px;
+    }
+
+    .game1 {
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("./images/Rectangle\ 4.png");
+        background-size: 0, 100%;
+        background-repeat: no-repeat;
+    }
+
+    .game2 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("./images/Rectangle\ 5.png");
+        background-size: 0, contain;
+        background-repeat: no-repeat;
+    }
+
+    .game3 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("./images/Rectangle\ 7.png");
+        background-size: 0, contain;
+        background-repeat: no-repeat;
+    }
+
+    .game4 {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url("./images/Rectangle\ 6.png");
+        background-size: 0, contain;
+        background-repeat: no-repeat;
+    }
+
+    .card:hover {
+        background-size: cover, contain;
+        border: 3px solid #F948B2;
+    }
+
+    .card:hover>:nth-child(n) {
+        visibility: visible;
+    }
 }
