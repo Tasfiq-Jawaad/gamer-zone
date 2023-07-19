@@ -348,3 +348,9 @@
     height: 50px;
     flex-shrink: 0;
 }
+
+/* footer section */
+.footer {
+    height: 600px;
+    background: #0B0223;
+}
