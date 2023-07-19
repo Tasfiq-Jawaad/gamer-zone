@@ -459,18 +459,18 @@ button {
         display: flex;
         flex-direction: column;
         padding: 20px 50px;
-        /* background-image: url("./images/Group\ 14.png"); */
+        background-image: url("./images/Group\ 14.png");
         /* background-repeat: no-repeat; */
         background-size: contain;
     }
 
     .banner-description h2 {
         color: #0B0223;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .banner-description h1 {
-        font-size: 55px;
+        font-size: 50px;
         margin-bottom: 15px;
     }
 
@@ -487,7 +487,7 @@ button {
         font-size: 15px;
         padding: 10px 15px;
         margin-right: 20px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     #banner-img-1 {
