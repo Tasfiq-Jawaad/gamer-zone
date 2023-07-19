@@ -323,7 +323,7 @@
 /* game genre section */
 .genre-container {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    margin-top: 70px;
+    margin: 150px 0;
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
@@ -335,6 +335,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    width: -moz-fit-content;
     width: fit-content;
     height: 70px;
     padding: 10px;
@@ -351,6 +352,41 @@
 
 /* footer section */
 .footer {
-    height: 600px;
     background: #0B0223;
+    padding: 70px 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.centre {
+    justify-content: center;
+    ;
+}
+
+.white {
+    color: white;
+}
+
+.footer-menus {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+}
+
+.socials:nth-child(n) {
+    font-size: 30px;
+}
+
+.opacity {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
 }
