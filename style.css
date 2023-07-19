@@ -395,6 +395,13 @@ button {
     list-style-type: none;
 }
 
+.footer-menus2 {
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 .socials {
     display: flex;
     gap: 30px;
@@ -411,9 +418,13 @@ button {
     text-align: center;
 }
 
+.hidden {
+    display: none;
+}
+
 @media screen and (max-width: 576px) {
     .hidden {
-        display: none;
+        display: block;
     }
 
     /* nav section */
@@ -605,10 +616,73 @@ button {
 
     #instantly-small-img {
         width: 125px;
-        position: absolute;
         right: 170px;
         top: 150px;
     }
 
+    /* game genre section */
+    .genre-container {
+        margin: 125px 0;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
 
+    .genre-card {
+        gap: 10px;
+        height: 70px;
+        padding: 10px;
+        padding-right: 15px;
+        background-color: #FFF;
+        border-radius: 50px;
+        border: 2px solid transparent;
+    }
+
+    .genre-card p {
+        font-size: 10px;
+    }
+
+    .genre-card img {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* footer section */
+    .footer {
+        padding: 70px 50px;
+        gap: 25px;
+    }
+
+    .footer-menus {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .footer-menus2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+
+    .socials {
+        flex-wrap: wrap;
+        gap: 20px 80px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .socials:nth-child(n) {
+        font-size: 20px;
+    }
+
+    .opacity {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+    }
 }
