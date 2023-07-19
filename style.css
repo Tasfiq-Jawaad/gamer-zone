@@ -353,6 +353,15 @@ button {
     padding-right: 15px;
     background-color: #FFF;
     border-radius: 50px;
+    border: 2px solid transparent;
+}
+
+.genre-card:hover {
+    border: 2px solid #FF42A5;
+}
+
+.genre-card:hover>p {
+    color: #FF42A5;
 }
 
 .genre-card img {
