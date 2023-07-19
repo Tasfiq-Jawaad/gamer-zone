@@ -573,7 +573,42 @@ button {
         border: 3px solid #F948B2;
     }
 
-    .card:hover>:nth-child(n) {
-        visibility: visible;
+    /* play instantly section */
+    .instantly-container {
+        flex-direction: column;
+        padding: 20px 70px;
+        gap: 60px;
+        align-items: center;
     }
+
+    .instantly-description {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .instantly-description h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .instantly-description p {
+        text-align: center;
+        font-size: 15px;
+        width: 250px;
+    }
+
+    #instantly-large-img {
+        width: 250px;
+    }
+
+    #instantly-small-img {
+        width: 125px;
+        position: absolute;
+        right: 170px;
+        top: 150px;
+    }
+
+
 }
