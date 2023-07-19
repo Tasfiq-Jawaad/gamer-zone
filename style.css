@@ -421,15 +421,16 @@ button {
         box-shadow: none;
         flex-direction: column;
         margin-top: 15px;
+        padding: 20px 70px;
     }
 
 
     .nav-header img {
-        height: 25px;
+        height: 20px;
     }
 
     .nav-header h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .nav-main {
