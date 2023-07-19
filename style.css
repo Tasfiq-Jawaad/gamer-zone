@@ -416,6 +416,7 @@ button {
         display: none;
     }
 
+    /* nav section */
     .nav-container {
         box-shadow: none;
         flex-direction: column;
@@ -449,5 +450,62 @@ button {
 
     .nav-follow img {
         height: 15px;
+    }
+
+    /* banner section */
+    .banner-container {
+        height: calc(100vh);
+        display: flex;
+        flex-direction: column;
+        padding: 20px 50px;
+        /* background-image: url("./images/Group\ 14.png"); */
+        /* background-repeat: no-repeat; */
+        background-size: contain;
+    }
+
+    .banner-description h2 {
+        color: #0B0223;
+        font-size: 30px;
+    }
+
+    .banner-description h1 {
+        font-size: 55px;
+        margin-bottom: 15px;
+    }
+
+    .banner-description p {
+        font-size: 15px;
+    }
+
+    .banner-btn {
+        display: flex;
+    }
+
+    #sign-in,
+    #go-rogue {
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+
+    #banner-img-1 {
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .banner-img-row {
+        margin-top: 20px;
+    }
+
+    #banner-img-2 {
+        width: 50%;
+        height: 150px;
+    }
+
+    #banner-img-3 {
+        width: 50%;
+        height: 100%;
+
     }
 }
