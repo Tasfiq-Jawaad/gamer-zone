@@ -319,3 +319,32 @@
     right: 400px;
     top: 300px;
 }
+
+/* game genre section */
+.genre-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 70px;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.genre-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    height: 70px;
+    padding: 10px;
+    padding-right: 15px;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+
+.genre-card img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
